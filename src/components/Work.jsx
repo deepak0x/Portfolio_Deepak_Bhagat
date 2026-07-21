@@ -6,7 +6,7 @@ const works = [
         title: "Trip Tracker by Zen",
         description: "Enterprise Flutter + Odoo ERP app — offline-first with FaceNet TFLite biometric attendance. Live on Play Store & App Store.",
         image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=60",
-        link: "https://play.google.com/store/search?q=Trip%20Tracker%20by%20Zen&c=apps",
+        link: "https://play.google.com/store/apps/details?id=com.zensoftwaresolutions.triptracker",
     },
     {
         title: "E-Summit Portal – IIT Roorkee",
@@ -18,7 +18,7 @@ const works = [
         title: "Eve – Social App",
         description: "Real-time activity-based social platform. 12+ Django REST APIs on GCP, Flutter app live on Play Store & App Store.",
         image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=60",
-        link: "https://meetwitheve.com/",
+        link: "https://play.google.com/store/apps/details?id=com.meetwitheve.eve&hl=en_IN",
     },
     {
         title: "AI Interviewer",
