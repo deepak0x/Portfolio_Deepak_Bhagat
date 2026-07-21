@@ -21,6 +21,12 @@ const works = [
         link: "https://play.google.com/store/apps/details?id=com.meetwitheve.eve&hl=en_IN",
     },
     {
+        title: "DRIFT – AI Travel Planner",
+        description: "Agentic travel planner on Azure AI Foundry — three coordinated AI agents build budget-aware itineraries end to end.",
+        image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60",
+        link: "https://black-plant-029c6b700.4.azurestaticapps.net/",
+    },
+    {
         title: "AI Interviewer",
         description: "AI-powered live coding interview platform with dual admin/candidate portals and real-time code analysis.",
         image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=60",
@@ -31,6 +37,12 @@ const works = [
         description: "RAG-powered AI assistant suite — LangChain/FAISS/OpenAI backend with React chat frontends for PDF & API Q&A.",
         image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=60",
         link: "https://github.com/deepak0x/RAGGaze",
+    },
+    {
+        title: "Truth Weaver",
+        description: "AI deception-analysis tool — transcribes testimony with Whisper and flags contradictions and evasions to synthesize the likely truth.",
+        image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=60",
+        link: "https://truth-weaver.vercel.app/",
     },
     {
         title: "Golden Oak AR",
