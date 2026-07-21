@@ -9,29 +9,12 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    // Smooth scrolling function with custom duration
-    const smoothScroll = (targetId, duration = 600) => {
-        const targetPosition = document.getElementById(targetId).offsetTop;
-        const startPosition = window.pageYOffset;
-        const distance = targetPosition - startPosition;
-        let startTime = null;
-
-        const animation = (currentTime) => {
-            if (startTime === null) startTime = currentTime;
-            const timeElapsed = currentTime - startTime;
-            const run = ease(timeElapsed, startPosition, distance, duration);
-            window.scrollTo(0, run);
-            if (timeElapsed < duration) requestAnimationFrame(animation);
-        };
-
-        const ease = (t, b, c, d) => {
-            t /= d / 2;
-            if (t < 1) return c / 2 * t * t + b;
-            t--;
-            return -c / 2 * (t * (t - 2) - 1) + b;
-        };
-
-        requestAnimationFrame(animation);
+    // Smooth scroll to a section using the native, hardware-accelerated API
+    const smoothScroll = (targetId) => {
+        const target = document.getElementById(targetId);
+        if (!target) return;
+        const top = target.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({ top, behavior: 'smooth' });
     };
 
     // Function to handle click on anchor tags for both sidenav and large screen navbar
